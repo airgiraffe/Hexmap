@@ -6,6 +6,9 @@ body {
     height: 100vh;
     margin: 0;
     font-family: Arial, sans-serif;
+    background-image: url(/img/spacedust1-2.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
 }
 
 .hexagon {
@@ -37,4 +40,40 @@ body {
 #toggleClear:hover {
   background-color: #0056b3; /* Hover background color when toggled */
   color: white; /* Hover text color when toggled */
+}
+
+.st0 {
+    fill: white; opacity: 10%;
+    cursor: pointer
+        
+        }
+      .gaz_c {
+        fill: red;
+opacity: 50%
+      }
+
+      .st1 {
+        fill: none;
+        stroke: #fff;
+        stroke-miterlimit: 10;
+          pointer-events: none;
+      }
+
+      .ross_c {
+        fill: #07ff00;opacity: 50%;
+      }
+
+      .jamie_c {
+        fill: #d87f27;opacity: 50%;
+      }
+
+      .rich_c {
+        fill: #297770;opacity: 50%;
+      }
+
+      .scott_c {
+        fill: #9500ff;opacity: 50%;
+      }
+.greg_c {
+    fill: #53d1ff; opacity: 50%;
 }
