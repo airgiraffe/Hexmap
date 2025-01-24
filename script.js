@@ -20,6 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
     polygon.addEventListener('click', () => {
       if (clearMode) {
         polygon.removeAttribute('class'); // Clear all classes
+        polygon.setAttribute('class', "st0");
       } else {
         polygon.setAttribute('class', fillColor);
       }
