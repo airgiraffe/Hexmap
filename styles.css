@@ -6,7 +6,7 @@ body {
     height: 100vh;
     margin: 0;
     font-family: Arial, sans-serif;
-    background-image: url(/img/spacedust1-2.jpg);
+    background-image: url(https://raw.githubusercontent.com/airgiraffe/Hexmap/refs/heads/main/img/spacedust1-2.jpg);
     background-repeat:no-repeat;
     background-size: cover;
 }
